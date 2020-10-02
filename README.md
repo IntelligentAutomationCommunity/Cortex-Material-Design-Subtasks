@@ -99,7 +99,10 @@ This subtask creates the html for a Material Design styled Progress Indicator th
 This is an example flow that demonstrates the use of all subtasks mentioned above. It is a very simple to follow flow.
 
 # Installation Instructions
-You require the material-dashboard-cortex.css file part of this project to be copied to the Cortex application server.
+Download the Studio Package file and Import it into your Cortex Environment.
+Don't forget to apply rights using the Studio Authorization module.
+
+You require the **material-dashboard-cortex.css** file part of this project to be copied to the Cortex application server.
 The last part of this video demonstrates how to do that: [https://vimeo.com/458599158/67a838ef39](https://vimeo.com/458599158/67a838ef39)
 
 :thumbsup: Success! :wink:
