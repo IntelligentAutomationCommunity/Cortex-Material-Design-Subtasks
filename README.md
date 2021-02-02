@@ -1,3 +1,7 @@
+[![](https://img.shields.io/badge/Cortex-LivePortal-ff6600)](https://www.cortex-ia.com/our-software) 
+[![](https://img.shields.io/badge/LinkedIn-Cortex-blue.svg?logo=linkedin)](https://www.linkedin.com/company/cortex-intelligent-automation-software/)
+[![](https://img.shields.io/badge/Blog-Cortex-a0c326)](https://www.cortex-ia.com/latest-news-at-cortex/)
+
 # Cortex Material Design Subtasks
 Examples of LivePortal UI Progress options
 
