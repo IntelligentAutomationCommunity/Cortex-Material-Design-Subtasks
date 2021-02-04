@@ -23,11 +23,17 @@ This subtask creates the Material Design html from a table variable. You can sup
                   The text will be displayed in smaller font than the table title.
 - Panel Title Colour: The background colour of the table header. Pick any of:
                       crtxlblue (default), crtxgreen, crtxindigo, crtxorange
-- Columns2skip: A comma separated list of column names to skip from being added to the output html
+- Columns: A list of columns from the table to display in the LivePortal GUI; each element of the list is a structure with the following fields:
+  - COLUMNNAME: the name of the column in the input table variable
+  - DISPLAYNAME: the text to display as the header in LivePortal
 - Panel width: Supply the bootstrap column width value (from 1 - 12) for the width of the table.
                The table is set to automatically center itself to the area it is placed in.
-- Action: Supply the action column details
-- Action icon: Supply a Material Design icon to be displayed. If omitted as default the double_arrow will be used.
+- Actions: (optional) A sructure to add per-row action icons to the table in LivePortal; when an action icon is clicked, then a LivePortal Label is updated to hold the value "<*action-name*>=<*column-value*>" (where <*action-name*> is the name of the field in the ACTIONS sub-structure and <*column-value*> is the value in the input table of the column identified by the COLUMN field. This is a structure with the following fields:
+  - DISPLAYNAME: The column header text to display in LivePortal
+  - LABELNAME: a LivePortal label name
+  - BUTTONNAME: a LivePortal button name
+  - COLUMN: the name of a column in the  input table
+  - ACTIONS: a structure, where each field name is the name of an action and each field value is the name of an icon to display
 
 ### 2. CTX-MDS-create-button
 This subtask creates the html for a Material Design Styled button. You can supply the following inputs:
